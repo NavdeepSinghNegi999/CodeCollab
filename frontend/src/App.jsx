@@ -4,6 +4,7 @@ import io from 'socket.io-client'
 import Editor from '@monaco-editor/react'
 
 const socket = io("http://localhost:5000");
+// const socket = io("https://codecollab-2vsf.onrender.com");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
@@ -16,6 +17,8 @@ const App = () => {
   const [typing, setTyping] = useState("");
   const [output, setOutput] = useState("");
   const [version, setVersion] = useState("*");
+  
+  
 
   useEffect(() => {
     socket.on("userJoined", (users) => {
@@ -99,6 +102,8 @@ const App = () => {
     socket.emit("compileCode", {code, roomId, language, version});
   }
 
+  
+
   if (!joined) {
     return (
       <div className="join-container">
@@ -114,6 +119,7 @@ const App = () => {
 
   return (
     <div className="editor-container">
+
       <div className="sidebar">
         <div className="room-info">
           <h2>Code Room: {roomId}</h2>
