@@ -10,10 +10,12 @@ You can view the deployed version of the app here: [Code Collaboration Platform 
 ![Screenshot](output/demo1.png)
 
 
-<video width="600" controls>
-  <source src="output/live.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+# CodeCollab Project Demo Video
+
+Click the thumbnail below to watch the demo video of the **CodeCollab** project:
+
+[![CodeCollab Demo](output/demo1.png)](https://drive.google.com/file/d/1s3wZpJ8kQndl4H7I7KADjLPiU6i3pwcv/view?usp=sharing)
+
 
 ## Technologies Used
 
