@@ -11,7 +11,7 @@ You can view the deployed version of the app here: [Code Collaboration Platform 
 Here’s a demo video of the real-time collaborative code editor in action:
 
 <video width="600" controls>
-  <source src="videos/live.mp4" type="video/mp4">
+  <source src="output/live.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
