@@ -6,9 +6,9 @@ This project is a real-time collaborative coding platform where multiple users c
 
 You can view the deployed version of the app here: [Code Collaboration Platform - Live Demo](https://codecollab-2vsf.onrender.com)
 
-## Demo Video
+## Demo Image
+![Screenshot](output/demo1.png)
 
-Here’s a demo video of the real-time collaborative code editor in action:
 
 <video width="600" controls>
   <source src="output/live.mp4" type="video/mp4">
